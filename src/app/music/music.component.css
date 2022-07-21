@@ -1,0 +1,19 @@
+ #post-success-alert{
+dislay : none;
+
+}
+
+#post-success-alert {
+    display : none;
+}
+
+#post-success-alert {
+    opacity: 1;
+    animation: fadeInOut 4s;
+}
+
+
+@keyframes fadeInOut {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
